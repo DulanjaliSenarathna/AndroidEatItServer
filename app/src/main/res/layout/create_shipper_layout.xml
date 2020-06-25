@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FoodList"
+    android:background="@color/white"
+    android:id="@+id/rootLayout">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtName"
+            android:hint="Name"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:inputType="text"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@color/colorPrimaryDark"
+            app:met_primaryColor="@color/colorPrimaryDark"
+            app:met_maxCharacters="20"
+
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPhone"
+            android:hint="Phone"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:inputType="phone"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@color/colorPrimaryDark"
+            app:met_primaryColor="@color/colorPrimaryDark"
+            app:met_maxCharacters="11"
+
+            />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPassword"
+            android:hint="Password"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:inputType="textPassword"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@color/colorPrimaryDark"
+            app:met_primaryColor="@color/colorPrimaryDark"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
